@@ -1,0 +1,12 @@
+# sloth
+
+- a lazy dynamically-typed functional language built on Julia
+- uses Julia parser and runs on top of Julia
+- everything lazy by default
+- can call eager Julia functions
+- can be called from eager Julia functions
+- tail call elimination (of course)
+- no max stack depth ever
+- graph reduction
+
+first steps: build it as a lisp (see SExpressions.jl) and then extend it to use Julia syntax
