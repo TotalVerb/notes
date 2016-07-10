@@ -10,3 +10,9 @@
 - graph reduction
 
 first steps: build it as a lisp (see SExpressions.jl) and then extend it to use Julia syntax
+
+## haskell ideas
+
+ - possible parenthesis-free function calls by using macrocall syntax
+ - i.e. `@f x y z` to mean `f(x, y, z)`?
+ - different approach to metaprogramming needed
