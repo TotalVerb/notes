@@ -9,3 +9,8 @@
  - but most have both, and it's just a single identity
  - want to make it easy to specify that there is a single identity
  - but also want to preserve the generality of both left- and right-identities
+
+## solution: LeftIdentity and RightIdentity as separate traits, and Identity as both
+
+ - but in general, we should prefer higher granularity over lower granularity
+ - macros/functions can be made to simplify defining a large number of methods
