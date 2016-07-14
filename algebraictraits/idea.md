@@ -14,3 +14,9 @@
 
  - but in general, we should prefer higher granularity over lower granularity
  - macros/functions can be made to simplify defining a large number of methods
+
+## problem 2: how close is close enough?
+
+ - do floating points count as a field?
+ - they have some major exceptions, like `NaN` or `Inf`
+ - but this is computing... are they an appropriate field anyway?
