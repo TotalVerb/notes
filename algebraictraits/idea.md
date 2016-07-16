@@ -20,3 +20,9 @@
  - do floating points count as a field?
  - they have some major exceptions, like `NaN` or `Inf`
  - but this is computing... are they an appropriate field anyway?
+
+## another problem
+
+ - there are so many different kinds of invertibility!
+ - only a few of them are practical
+ - gotta figure out a good basis and build on that
