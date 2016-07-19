@@ -26,3 +26,8 @@
  - there are so many different kinds of invertibility!
  - only a few of them are practical
  - gotta figure out a good basis and build on that
+
+## trait dispatch
+
+ - use a library?
+ - make sure to actually dispatch, or things are weird
